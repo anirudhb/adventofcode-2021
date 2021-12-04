@@ -12,6 +12,8 @@
       nativeBuildInputs = [
         ghc
         haskell-language-server
+        cabal-install
+        stack
       ];
     };
   });

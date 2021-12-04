@@ -1,0 +1,30 @@
+name:                adventofcode2021
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/anirudhb/adventofcode-2021#readme
+license:             AGPL-3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2021 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - split
+
+executables:
+  day1-part1:
+    source-dirs:      day1
+    main:             part1.hs
+  day1-part2:
+    source-dirs:      day1
+    main:             part2.hs
+  day4-part1:
+    source-dirs:      day4
+    main:             part1.hs
+  day4-part2:
+    source-dirs:      day4
+    main:             part2.hs
